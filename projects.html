@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Dhairya Gogri — data, technology, AI and operations professional based in Glasgow.">
+  <meta name="theme-color" content="#071018">
+  <title>Projects · Dhairya Gogri</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="navbar">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html" aria-label="Dhairya Gogri home">
+      <span class="brand-mark">DG</span><span>Dhairya Gogri</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="company.html">Company</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="commandBtn" aria-label="Open site search" title="Search • Ctrl K">⌕</button>
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">☀</button>
+      <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-hero">
+  <div class="container reveal">
+    <div class="kicker">Projects</div>
+    <h1>A portfolio of data science, AI research and software work.</h1>
+    <p>These projects are the strongest technical evidence currently published on my portfolio and GitHub. Use the filters to focus on a particular area.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="filters" aria-label="Project filters">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="ml">Machine learning</button>
+      <button class="filter" data-filter="nlp">NLP</button>
+      <button class="filter" data-filter="finance">Finance</button>
+      <button class="filter" data-filter="research">Research</button>
+    </div>
+    <div class="grid-3">
+      <article class="card project-card reveal" data-category="ml finance" id="spotify">
+        <div><div class="visual"><div class="visual-chart"><span class="bar" style="left:0;height:30%"></span><span class="bar" style="left:18%;height:44%"></span><span class="bar" style="left:36%;height:61%"></span><span class="bar" style="left:54%;height:48%"></span><span class="bar" style="left:72%;height:80%"></span><span class="bar" style="left:88%;height:68%"></span></div></div><div class="kicker">Machine learning</div><h3>Spotify Classification</h3><p>Machine-learning work using a Spotify dataset to explore genre/popularity prediction and model evaluation in Python.</p><div class="tag-row"><span class="tag">Python</span><span class="tag">scikit-learn</span><span class="tag">Jupyter</span></div></div>
+        <a class="mini-link" href="https://github.com/DhairyaGogri/SpotifyClassification" target="_blank" rel="noreferrer">GitHub →</a>
+      </article>
+
+      <article class="card project-card reveal" data-category="nlp" id="sentiment">
+        <div><div class="visual"><div class="visual-grid"></div></div><div class="kicker">NLP</div><h3>Sentiment Analysis</h3><p>Comparative modelling with LSTM, attention, GRU and RNN approaches, including transfer-learning experiments.</p><div class="tag-row"><span class="tag">NLP</span><span class="tag">LSTM</span><span class="tag">RNN</span></div></div>
+        <a class="mini-link" href="https://github.com/DhairyaGogri/SentimentAnalysis" target="_blank" rel="noreferrer">GitHub →</a>
+      </article>
+
+      <article class="card project-card reveal" data-category="ml finance" id="regression">
+        <div><div class="visual"><div class="visual-chart"><span class="bar" style="left:0;height:55%"></span><span class="bar" style="left:18%;height:48%"></span><span class="bar" style="left:36%;height:70%"></span><span class="bar" style="left:54%;height:66%"></span><span class="bar" style="left:72%;height:83%"></span><span class="bar" style="left:88%;height:79%"></span></div></div><div class="kicker">Regression</div><h3>Spotify Regression</h3><p>Regression analysis exploring predictive relationships in Spotify data with preprocessing, visualisation and model comparison.</p><div class="tag-row"><span class="tag">Python</span><span class="tag">Regression</span><span class="tag">EDA</span></div></div>
+        <a class="mini-link" href="https://github.com/DhairyaGogri/RegressionSpotify" target="_blank" rel="noreferrer">GitHub →</a>
+      </article>
+
+      <article class="card project-card reveal" data-category="ml finance" id="stocks">
+        <div><div class="visual"><div class="visual-chart"><span class="bar" style="left:0;height:31%"></span><span class="bar" style="left:17%;height:58%"></span><span class="bar" style="left:34%;height:51%"></span><span class="bar" style="left:51%;height:76%"></span><span class="bar" style="left:68%;height:65%"></span><span class="bar" style="left:85%;height:88%"></span></div></div><div class="kicker">Finance</div><h3>Stock Market Prediction</h3><p>Historical stock-data modelling for ten companies, implemented in Python to explore predictive approaches.</p><div class="tag-row"><span class="tag">Time series</span><span class="tag">Python</span><span class="tag">Finance</span></div></div>
+        <a class="mini-link" href="https://github.com/DhairyaGogri/StockPrediction" target="_blank" rel="noreferrer">GitHub →</a>
+      </article>
+
+      <article class="card project-card reveal" data-category="finance ml">
+        <div><div class="visual"><div style="width:76%;height:60%;border:1px solid rgba(101,224,194,.28);border-radius:20px;position:relative"><span style="position:absolute;left:12%;bottom:17%;width:50%;height:1px;background:var(--accent);transform:rotate(-14deg);transform-origin:left"></span><span style="position:absolute;left:12%;bottom:17%;width:9px;height:9px;border-radius:50%;background:var(--accent)"></span></div></div><div class="kicker">Finance / algorithms</div><h3>Automatically Formulating Trading Rules</h3><p>Exploration of automated approaches to formulating trading rules from market data and algorithmic analysis.</p><div class="tag-row"><span class="tag">Algorithms</span><span class="tag">Finance</span></div></div>
+        <a class="mini-link" href="https://github.com/DhairyaGogri/AutomaticallyFormulatingTradingules" target="_blank" rel="noreferrer">GitHub →</a>
+      </article>
+
+      <article class="card project-card reveal" data-category="research ml" id="rl">
+        <div><div class="visual"><div style="width:94px;height:94px;border-radius:28px;background:linear-gradient(145deg,var(--accent),var(--accent-2));color:#061014;display:grid;place-items:center;font-size:25px;font-weight:900">RL</div></div><div class="kicker">Research</div><h3>Evolution of Deep Reinforcement Learning</h3><p>Academic research into the development of deep reinforcement-learning algorithms, with a computer-games case study.</p><div class="tag-row"><span class="tag">Deep RL</span><span class="tag">Research</span><span class="tag">AI</span></div></div>
+        <a class="mini-link" href="https://github.com/DhairyaGogri/Evolution-of-deep-reinforcement-learning-algorithm" target="_blank" rel="noreferrer">GitHub →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container feature-panel reveal">
+    <div class="feature-grid">
+      <div>
+        <div class="kicker">Technical evidence</div>
+        <h3>My GitHub is the detailed layer.</h3>
+        <p>The portfolio summarises the problem, approach and skills. The linked repositories provide the underlying notebooks and code where available.</p>
+      </div>
+      <div class="cta-row" style="margin-top:0"><a class="btn btn-primary" href="https://github.com/DhairyaGogri" target="_blank" rel="noreferrer">Open GitHub ↗</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <strong>Dhairya Gogri</strong><br>
+      <small>Data, technology, AI &amp; operations</small>
+    </div>
+    <div class="footer-links">
+      <a href="company.html">DHAIRYA &amp; SMIT GOGRI LTD</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://github.com/DhairyaGogri" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/mrdhairyagogri/" target="_blank" rel="noreferrer">LinkedIn</a>
+    </div>
+    <small>&copy; <span id="year"></span> Dhairya Gogri. Company no. SC889834.</small>
+  </div>
+</footer>
+
+
+<div class="command" id="command" role="dialog" aria-modal="true" aria-label="Site search">
+  <div class="command-box">
+    <div class="command-input">
+      <input id="commandInput" type="search" placeholder="Jump to a page…" aria-label="Jump to a page">
+    </div>
+    <div class="command-list">
+      <a class="command-item" href="index.html"><span>Home</span><span class="kbd">01</span></a>
+      <a class="command-item" href="about.html"><span>About</span><span class="kbd">02</span></a>
+      <a class="command-item" href="experience.html"><span>Experience</span><span class="kbd">03</span></a>
+      <a class="command-item" href="projects.html"><span>Projects</span><span class="kbd">04</span></a>
+      <a class="command-item" href="company.html"><span>Company</span><span class="kbd">05</span></a>
+      <a class="command-item" href="contact.html"><span>Contact</span><span class="kbd">06</span></a>
+      <a class="command-item" href="https://github.com/DhairyaGogri" target="_blank" rel="noreferrer"><span>GitHub</span><span>↗</span></a>
+      <a class="command-item" href="https://www.linkedin.com/in/mrdhairyagogri/" target="_blank" rel="noreferrer"><span>LinkedIn</span><span>↗</span></a>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+<script src="js/site.js"></script>
+</body>
+</html>
