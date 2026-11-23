@@ -25,11 +25,7 @@ A static, multi-page personal portfolio redesign for GitHub Pages.
 - 404.html
 
 ## Before publishing
-<<<<<<< HEAD
 1. Verify the CV and company capability statement download links on the Home and Company pages.
-=======
-1. Verify the resume link on the Home page points to your current CV PDF.
->>>>>>> origin/main
 2. Verify the public LinkedIn/GitHub destinations.
 3. Replace any placeholder content with newly confirmed information.
 4. Review the company description against the services you actually intend to offer.

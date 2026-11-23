@@ -55,6 +55,11 @@
       const open = card.classList.toggle('open');
       summary.setAttribute('aria-expanded', String(open));
     });
+    summary.addEventListener('keydown', event => {
+      if(event.target !== summary || (event.key !== 'Enter' && event.key !== ' ')) return;
+      event.preventDefault();
+      summary.click();
+    });
   });
 
   // Project filtering
@@ -82,11 +87,8 @@
       return;
     }
     const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
-<<<<<<< HEAD
     location.href = `mailto:dhairyagogri97@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-=======
     location.href = `mailto:dhairyagogri@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
->>>>>>> origin/main
     showToast('Your email draft has been prepared.');
   });
 
