@@ -82,7 +82,11 @@
       return;
     }
     const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
+<<<<<<< HEAD
     location.href = `mailto:dhairyagogri97@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+=======
+    location.href = `mailto:dhairyagogri@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+>>>>>>> origin/main
     showToast('Your email draft has been prepared.');
   });
 
